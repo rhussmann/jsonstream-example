@@ -1,0 +1,19 @@
+{
+  "name": "jsonstream-example",
+  "version": "1.0.0",
+  "description": "Trying to exhibit bad behavior with JSON stream.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rhussmann/jsonstream-example.git"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ricky Hussmann",
+  "license": "MIT",
+  "dependencies": {
+    "JSONStream": "^1.0.4"
+  }
+}
