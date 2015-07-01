@@ -27,3 +27,5 @@ the command:
 ```
 npm -s start < ./input/reading_list.json
 ```
+A working example is on the `master` branch. A non-working example is on the
+`broken` branch.
