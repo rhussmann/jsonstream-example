@@ -8,8 +8,6 @@ function convertArticleToMarkdown(article) {
   };
 }
 
-process.stdin.pipe(JSONStream.parse("*", function(data) {
-  var markdownObject = convertArticleToMarkdown(data);
-  var outputData = [markdownObject.byLine, markdownObject.linkLine, "\n"];
-  return outputData.join("\n");
-})).pipe(process.stdout);
+process.stdin
+  .pipe(JSONStream.parse("*"))
+  .pipe(process.stdout);
